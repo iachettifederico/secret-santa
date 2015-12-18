@@ -1,0 +1,26 @@
+* How to use
+
+Download the secret_santa.rb file
+
+Instal the malone gem
+
+#+BEGIN_SRC sh
+gem install malone
+#+END_SRC
+
+If you're just playing with it, install mailcatcher
+
+#+BEGIN_SRC sh
+gem install mailcatcher
+#+END_SRC
+
+Fill in the missing data on for the smtp server.
+
+Select the language you need by commenting or uncommenting the corresponding lines.
+
+Finally, add as many gifters as you like. You need at least 3 to make it count.
+
+Run the file.
+
+Each gifter should receive an email with a random name corresponding to the person they have to give a gift.
+
